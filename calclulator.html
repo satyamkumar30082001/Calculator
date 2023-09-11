@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8s">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator - By Satyam kumar</title>
+    
+</head>
+<body>
+    <div class="calculater">
+        <input type="text" placeholder="0" id="outputBox" value="0.0"> Result
+        <div>
+            <button id="ac" onclick="Clear()">AC</button>
+            <button class="operator" onclick="Delete()">DEL</button>
+            <button onclick="Data('%')">%</button>
+            <button class="operator" onclick="Data('/')">/</button>
+        </div>
+        <div>
+            <button class="number" onclick="Data('7')">7</button>
+            <button class="number" onclick="Data('8')">8</button>
+            <button class="number" onclick="Data('9')">9</button>
+            <button class="operator" onclick="Data('*')">*</button>
+        </div>
+        <div>
+            <button class="number" onclick="Data('4')">4</button>
+            <button class="number" onclick="Data('5')">5</button>
+            <button class="number" onclick="Data('6')">6</button>
+            <button class="operator" onclick="Data('-')">-</button>
+        </div>
+        <div>
+            <button class="number" onclick="Data('1')">1</button>
+            <button class="number" onclick="Data('2')">2</button>
+            <button class="number" onclick="Data('3')">3</button>
+            <button class="operator" onclick="Data('+')">+</button>
+        </div>
+        <div>
+            <button onclick="Data('00')">00</button>
+            <button onclick="Data('0')">0</button>
+            <button onclick="Data('.')">.</button>
+            <button class="equalBtn" onclick="Process()">=</button>
+        </div>
+    </div>
+
+    
+</body>
+
+<script src="./calculator.js">
+   
+</script>
+</html>
